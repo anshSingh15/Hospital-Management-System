@@ -1,0 +1,43 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hospital Management System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navigation">
+        <ul>
+            <li onclick="showSection('dashboard')">Dashboard</li>
+            <li onclick="showSection('patients')">Patients</li>
+            <li onclick="showSection('doctors')">Doctors</li>
+            <li onclick="showSection('appointments')">Appointments</li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="dashboard" class="section active">
+            <h1>Dashboard</h1>
+            <p>Overview of hospital stats and system status.</p>
+        </section>
+
+        <section id="patients" class="section">
+            <h1>Patient Management</h1>
+            <p>Manage patient records and appointments here.</p>
+        </section>
+
+        <section id="doctors" class="section">
+            <h1>Doctor Management</h1>
+            <p>Manage doctor profiles, schedules, and specializations.</p>
+        </section>
+
+        <section id="appointments" class="section">
+            <h1>Appointment Management</h1>
+            <p>View and organize all patient appointments.</p>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

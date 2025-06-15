@@ -1,0 +1,36 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f2f4f8;
+}
+
+nav.navigation {
+    background-color: #0b7285;
+    padding: 10px;
+}
+
+nav.navigation ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav.navigation li {
+    color: white;
+    cursor: pointer;
+}
+
+main {
+    padding: 20px;
+}
+
+.section {
+    display: none;
+}
+
+.section.active {
+    display: block;
+}
